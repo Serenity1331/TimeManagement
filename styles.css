@@ -12,7 +12,6 @@ button:focus {
 
 body {
     height: 100vh;
-    
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -29,14 +28,12 @@ body {
     height: 300px;
     width: 400px;
     background: #F1F1F1;
-    /* background-image: ; */
     text-align: center;
     box-shadow: 0px 0px 5px;
 }
 
 .container {
     
-    /* border: 2px solid rebeccapurple; */
     height: 200px;
     width: 250px;
     display: flex;
@@ -63,6 +60,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+button {
+    padding: 5px;
+    background: #ec6db3;
+    margin: 5px;
+}
+
 .login-btn {
     background: #963E94;
     width: 100px;
@@ -80,3 +83,21 @@ h2 {
     color: #E6D8FC;
     opacity: 1; /* Firefox */
   }
+
+.date {
+    margin: 5px 5px;
+}
+
+.cell {
+    background: red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.headCell {
+    background: rgb(221, 25, 195);
+}
+
+.hidden {
+    visibility: hidden;
+}
